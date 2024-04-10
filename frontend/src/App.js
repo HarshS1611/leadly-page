@@ -27,7 +27,7 @@ const App = () => {
           <div key={index} className="bg-gray-100 p-4 rounded shadow-md">
             <h2 className="text-xl font-bold mb-2">{product.name}</h2>
             <p className="text-gray-700">{product.description}</p>
-            <p className="text-gray-800 font-semibold mt-2">${product.price.toFixed(2)}</p>
+            <p className="text-gray-800 font-semibold mt-2">${product.price}</p>
           </div>
         ))}
       </div>

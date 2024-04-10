@@ -1,7 +1,7 @@
 export default function Brands() {
     return (
         <div className="bg-[#f9f9f9] ml-10 rounded-tl-[100px]">
-            <div className="flex justify-center items-center gap-20 py-10 w-full mx-auto p-2 sm:px-6 lg:px-20 mt-20">
+            <div className="flex justify-center items-center gap-20 pb-10 w-full mx-auto p-2 sm:px-6 lg:px-20">
                 <div className="flex gap-5">
                     <div className="flex flex-col gap-2 mt-16">
                         <div className="p-16 bg-white rounded-xl shadow-lg">Amul</div>

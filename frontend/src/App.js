@@ -1,6 +1,8 @@
 
 import React, { useState, useEffect } from 'react';
 import './App.css';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
 
 const App = () => {
   const [products, setProducts] = useState([]);
@@ -20,7 +22,9 @@ const App = () => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="">
+      <Navbar/>
+      <Hero/>
       <h1 className="text-3xl font-bold mb-4">Products</h1>
       <div className="grid grid-cols-3 gap-4">
         {products.map((product, index) => (

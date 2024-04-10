@@ -1,0 +1,11 @@
+/* custom.css */
+.brands-content .brands-title .title-icon::after {
+    content: '';
+    background-image: url(//cdn1.storehippo.com/s/5667e7d…/ms.files/new-home/heading-before.png);
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top right;
+}

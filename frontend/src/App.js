@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import Brands from './components/Brands';
 
 const App = () => {
   const [products, setProducts] = useState([]);
@@ -25,6 +26,7 @@ const App = () => {
     <div className="">
       <Navbar/>
       <Hero/>
+      <Brands/>
       <h1 className="text-3xl font-bold mb-4">Products</h1>
       <div className="grid grid-cols-3 gap-4">
         {products.map((product, index) => (

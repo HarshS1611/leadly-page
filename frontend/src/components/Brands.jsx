@@ -14,54 +14,54 @@ export default function Brands() {
         <div className="bg-[#f9f9f9] lg:ml-10 lg:rounded-tl-[100px]">
             <div className="flex flex-col-reverse lg:flex-row justify-center items-center xl:gap-10 pb-10 w-full mx-auto p-2 sm:px-6 xl:px-60">
                 <div className="hidden lg:flex gap-5 mt-5 xl:mt-10">                    <div className="flex flex-col gap-4 mt-16">
-                    <div className="cursor-pointer flex flex-col relative justify-center py-10 xl:py-12 w-max px-6 bg-white rounded-xl shadow-lg"
+                    <a href='https://shop.amul.com/en/' target='blank' className="cursor-pointer flex flex-col relative justify-center py-10 xl:py-12 w-max px-6 bg-white rounded-xl shadow-lg"
                         onMouseEnter={() => setShowIcon1(true)}
                         onMouseLeave={() => setShowIcon1(false)}>
                         <img className="w-24 h-10" src="https://shop.amul.com/s/62fa94df8c13af2e242eba16/632c0a030a4b84e22b4994cc/asset-1-480x480.png" />
                         {showIcon1 && <img className='absolute bottom-0 mb-5 ml-10' src="https://cdn1.storehippo.com/s/5667e7d63086b2e718049ad9/ms.files/new-home/view-arrow.svg" alt="view-arrow" />}
 
-                    </div>
-                    <div className=" cursor-pointer flex flex-col relative  justify-center py-10 xl:py-12 w-max px-6 bg-white rounded-xl shadow-lg"
+                    </a>
+                    <a href='https://www.syngenta.com/en' target='blank' className=" cursor-pointer flex flex-col relative  justify-center py-10 xl:py-12 w-max px-6 bg-white rounded-xl shadow-lg"
                         onMouseEnter={() => setShowIcon2(true)}
                         onMouseLeave={() => setShowIcon2(false)}>
                         <img className="w-24 h-10" src="https://www.syngenta.com/sites/syngenta/files/syngenta-logo.png" />
                         {showIcon2 && <img className='absolute bottom-0 mb-5 ml-10' src="https://cdn1.storehippo.com/s/5667e7d63086b2e718049ad9/ms.files/new-home/view-arrow.svg" alt="view-arrow" />}
 
-                    </div>
+                    </a>
                 </div>
                     <div className="flex flex-col gap-4">
-                        <div className=" cursor-pointer flex flex-col relative  justify-center py-10 xl:py-10 w-max px-6 bg-white rounded-xl shadow-lg"
+                        <a href='https://shop.bergerpaints.com/' target='blank' className=" cursor-pointer flex flex-col relative  justify-center py-10 xl:py-10 w-max px-6 bg-white rounded-xl shadow-lg"
                             onMouseEnter={() => setShowIcon3(true)}
                             onMouseLeave={() => setShowIcon3(false)}>
                             <img className="w-24 h-16" src="https://cdn.storehippo.com/s/5ebbeb40984bf5412014650d/ms.settings/5256837ccc4abf1d39000001/5ec7811e47a129b9c8a9eaeb-480x480.png" />
                             {showIcon3 && <img className='absolute bottom-0 mb-5 ml-10' src="https://cdn1.storehippo.com/s/5667e7d63086b2e718049ad9/ms.files/new-home/view-arrow.svg" alt="view-arrow" />}
 
-                        </div>
-                        <div className=" cursor-pointer flex flex-col relative  justify-center py-10 xl:py-10 w-max px-6 bg-white rounded-xl shadow-lg"
+                        </a>
+                        <a href='https://www.masterconnect.in/' target='blank' className=" cursor-pointer flex flex-col relative  justify-center py-10 xl:py-10 w-max px-6 bg-white rounded-xl shadow-lg"
                             onMouseEnter={() => setShowIcon4(true)}
                             onMouseLeave={() => setShowIcon4(false)}>
                             <img className="w-24 h-10" src="https://www.masterconnect.in/s/61a87fd8f7e0908ed655d7a9/627124963e134a14a9212bec/resize_logo-240x240.png" />
                             {showIcon4 && <img className='absolute bottom-0 mb-5 ml-10' src="https://cdn1.storehippo.com/s/5667e7d63086b2e718049ad9/ms.files/new-home/view-arrow.svg" alt="view-arrow" />}
 
-                        </div>
-                        <div className=" cursor-pointer flex flex-col relative  justify-center py-10 xl:py-10 w-max px-6 bg-white rounded-xl shadow-lg"
+                        </a>
+                        <a href='https://www.whites.net/en/' target='blank' className=" cursor-pointer flex flex-col relative  justify-center py-10 xl:py-10 w-max px-6 bg-white rounded-xl shadow-lg"
                             onMouseEnter={() => setShowIcon5(true)}
                             onMouseLeave={() => setShowIcon5(false)}>
                             <img className="w-24 h-8" src="https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/636c8d9521cd491a8c9a4723/mystore-logo-blue-200x80.png" />
                             {showIcon5 && <img className='absolute bottom-0 mb-5 ml-10' src="https://cdn1.storehippo.com/s/5667e7d63086b2e718049ad9/ms.files/new-home/view-arrow.svg" alt="view-arrow" />}
 
-                        </div>
+                        </a>
 
                     </div>
                     <div className="flex flex-col gap-4 mt-16">
-                        <div className=" cursor-pointer flex flex-col relative  justify-center py-10 xl:py-12 w-max px-6 bg-white rounded-xl shadow-lg"
+                        <a href='https://www.momeaze.com/en/' target='blank' className=" cursor-pointer flex flex-col relative  justify-center py-10 xl:py-12 w-max px-6 bg-white rounded-xl shadow-lg"
                             onMouseEnter={() => setShowIcon6(true)}
                             onMouseLeave={() => setShowIcon6(false)}>
                             <img className="w-24 h-10" src="https://www.momeaze.com/s/62960a9d8f900ec4105c601b/62a2de90cbdfc8655f9466a8/mome-logo-480x480.png" />
                             {showIcon6 && <img className='absolute bottom-0 mb-5 ml-10' src="https://cdn1.storehippo.com/s/5667e7d63086b2e718049ad9/ms.files/new-home/view-arrow.svg" alt="view-arrow" />}
 
-                        </div>
-                        <div className=" cursor-pointer flex flex-col relative  justify-center py-10 xl:py-12 w-max px-6 bg-white rounded-xl shadow-lg"
+                        </a>
+                        <a href='https://shop.bergerpaints.com/' target='blank' className=" cursor-pointer flex flex-col relative  justify-center py-10 xl:py-12 w-max px-6 bg-white rounded-xl shadow-lg"
                             onMouseEnter={() => setShowIcon7(true)}
                             onMouseLeave={() => setShowIcon7(false)}>
                             <svg xmlns="http://www.w3.org/2000/svg" width="100" height="28.532" viewBox="0 0 130 28.532">
@@ -69,26 +69,26 @@ export default function Brands() {
                             </svg>
                             {showIcon7 && <img className='absolute bottom-0 mb-5 ml-10' src="https://cdn1.storehippo.com/s/5667e7d63086b2e718049ad9/ms.files/new-home/view-arrow.svg" alt="view-arrow" />}
 
-                        </div>
+                        </a>
                     </div>
                 </div>
                 <div className="lg:flex items-center hidden"><img className="h-40 w-80 xl:h-40 xl:w-80" src="https://cdn1.storehippo.com/s/5667e7d63086b2e718049ad9/ms.files/new-home/brand-after.png" /> </div>
                 <div className='lg:hidden flex gap-2 md:gap-5'>
-                    <div className=" cursor-pointer flex flex-col relative  justify-center py-5 md:py-10 xl:py-10 w-max px-4 md:px-6 bg-white rounded-xl shadow-lg"
+                    <a href='https://www.masterconnect.in/' target='blank' className=" cursor-pointer flex flex-col relative  justify-center py-5 md:py-10 xl:py-10 w-max px-4 md:px-6 bg-white rounded-xl shadow-lg"
                         onMouseEnter={() => setShowIcon4(true)}
                         onMouseLeave={() => setShowIcon4(false)}>
                         <img className="w-10 h-5 md:w-24 md:h-10" src="https://www.masterconnect.in/s/61a87fd8f7e0908ed655d7a9/627124963e134a14a9212bec/resize_logo-240x240.png" />
                         {showIcon4 && <img className='absolute bottom-0 mb-1 md:mb-5 ml-2 md:ml-10' src="https://cdn1.storehippo.com/s/5667e7d63086b2e718049ad9/ms.files/new-home/view-arrow.svg" alt="view-arrow" />}
 
-                    </div>
-                    <div className=" cursor-pointer flex flex-col relative  justify-center py-5 md:py-10 xl:py-10 w-max px-4 md:px-6 bg-white rounded-xl shadow-lg"
+                    </a>
+                    <a href='https://www.mystore.in/en/' target='blank' className=" cursor-pointer flex flex-col relative  justify-center py-5 md:py-10 xl:py-10 w-max px-4 md:px-6 bg-white rounded-xl shadow-lg"
                         onMouseEnter={() => setShowIcon5(true)}
                         onMouseLeave={() => setShowIcon5(false)}>
                         <img className="w-10 h-5 md:w-24 md:h-8" src="https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/636c8d9521cd491a8c9a4723/mystore-logo-blue-200x80.png" />
                         {showIcon5 && <img className='absolute bottom-0 mb-1 md:mb-5 ml-2 md:ml-10' src="https://cdn1.storehippo.com/s/5667e7d63086b2e718049ad9/ms.files/new-home/view-arrow.svg" alt="view-arrow" />}
 
-                    </div>
-                    <div className=" cursor-pointer flex flex-col relative  justify-center py-5 md:py-10 xl:py-12 w-max px-4 md:px-6 bg-white rounded-xl shadow-lg"
+                    </a>
+                    <a href='https://www.whites.net/en/' target='blank' className=" cursor-pointer flex flex-col relative  justify-center py-5 md:py-10 xl:py-12 w-max px-4 md:px-6 bg-white rounded-xl shadow-lg"
                         onMouseEnter={() => setShowIcon7(true)}
                         onMouseLeave={() => setShowIcon7(false)}>
                         <svg className='w-10 h-5 md:w-24 md:h-8' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 28.532">
@@ -96,38 +96,38 @@ export default function Brands() {
                         </svg>
                         {showIcon7 && <img className='absolute bottom-0 mb-1 md:mb-5 ml-2 md:ml-10' src="https://cdn1.storehippo.com/s/5667e7d63086b2e718049ad9/ms.files/new-home/view-arrow.svg" alt="view-arrow" />}
 
-                    </div>
+                    </a>
 
                 </div>
                 <div className='lg:hidden flex gap-2 md:gap-5 my-5'>
-                    <div className="cursor-pointer flex flex-col relative justify-center md:py-10 xl:py-12 w-max px-4 md:px-6 bg-white rounded-xl shadow-lg"
+                    <a href='https://shop.amul.com/en/' target='blank' className="cursor-pointer flex flex-col relative justify-center md:py-10 xl:py-12 w-max px-4 md:px-6 bg-white rounded-xl shadow-lg"
                         onMouseEnter={() => setShowIcon1(true)}
                         onMouseLeave={() => setShowIcon1(false)}>
                         <img className="w-8 h-5 md:w-24 md:h-10" src="https://shop.amul.com/s/62fa94df8c13af2e242eba16/632c0a030a4b84e22b4994cc/asset-1-480x480.png" />
                         {showIcon1 && <img className='absolute bottom-0 mb-1 md:mb-5 ml-2 md:ml-10' src="https://cdn1.storehippo.com/s/5667e7d63086b2e718049ad9/ms.files/new-home/view-arrow.svg" alt="view-arrow" />}
 
-                    </div>
-                    <div className=" cursor-pointer flex flex-col relative  justify-center md:py-10 xl:py-10 w-max px-4 md:px-6 bg-white rounded-xl shadow-lg"
+                    </a>
+                    <a href='https://shop.bergerpaints.com/' target='blank' className=" cursor-pointer flex flex-col relative  justify-center md:py-10 xl:py-10 w-max px-4 md:px-6 bg-white rounded-xl shadow-lg"
                         onMouseEnter={() => setShowIcon3(true)}
                         onMouseLeave={() => setShowIcon3(false)}>
                         <img className="w--8 h-5 md:w-24 md:h-16" src="https://cdn.storehippo.com/s/5ebbeb40984bf5412014650d/ms.settings/5256837ccc4abf1d39000001/5ec7811e47a129b9c8a9eaeb-480x480.png" />
                         {showIcon3 && <img className='absolute bottom-0 mb-1 md:mb-5 ml-2 md:ml-10' src="https://cdn1.storehippo.com/s/5667e7d63086b2e718049ad9/ms.files/new-home/view-arrow.svg" alt="view-arrow" />}
 
-                    </div>
-                    <div className=" cursor-pointer flex flex-col relative  justify-center md:py-10 xl:py-12 w-max px-4 md:px-6 bg-white rounded-xl shadow-lg"
+                    </a>
+                    <a href='https://www.momeaze.com/en/' target='blank' className=" cursor-pointer flex flex-col relative  justify-center md:py-10 xl:py-12 w-max px-4 md:px-6 bg-white rounded-xl shadow-lg"
                         onMouseEnter={() => setShowIcon6(true)}
                         onMouseLeave={() => setShowIcon6(false)}>
                         <img className="w-8 h-5 md:w-24 md:h-10" src="https://www.momeaze.com/s/62960a9d8f900ec4105c601b/62a2de90cbdfc8655f9466a8/mome-logo-480x480.png" />
                         {showIcon6 && <img className='absolute bottom-0 mb-1 md:mb-5 ml-2 md:ml-10' src="https://cdn1.storehippo.com/s/5667e7d63086b2e718049ad9/ms.files/new-home/view-arrow.svg" alt="view-arrow" />}
 
-                    </div>
-                    <div className=" cursor-pointer flex flex-col relative  justify-center py-10 xl:py-12 w-max px-4 md:px-6 bg-white rounded-xl shadow-lg"
+                    </a>
+                    <a href='https://www.syngenta.com/en' target='blank' className=" cursor-pointer flex flex-col relative  justify-center py-10 xl:py-12 w-max px-4 md:px-6 bg-white rounded-xl shadow-lg"
                         onMouseEnter={() => setShowIcon2(true)}
                         onMouseLeave={() => setShowIcon2(false)}>
                         <img className="w-8 h-5 md:w-24 md:h-10" src="https://www.syngenta.com/sites/syngenta/files/syngenta-logo.png" />
                         {showIcon2 && <img className='absolute bottom-0 mb-1 md:mb-5 ml-2 md:ml-10' src="https://cdn1.storehippo.com/s/5667e7d63086b2e718049ad9/ms.files/new-home/view-arrow.svg" alt="view-arrow" />}
 
-                    </div>
+                    </a>
                 </div>
                
 
